@@ -11,7 +11,7 @@ import SwiftUI
 struct StorageApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(model: StorageModel())
         }
     }
 }
