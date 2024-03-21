@@ -12,6 +12,10 @@
 		269696CA2BACA48000C0C25A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269696C92BACA48000C0C25A /* Assets.xcassets */; };
 		269696CD2BACA48000C0C25A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269696CC2BACA48000C0C25A /* Preview Assets.xcassets */; };
 		269696D62BACA4CE00C0C25A /* StorageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269696D52BACA4CE00C0C25A /* StorageModel.swift */; };
+		269696D82BACA5B100C0C25A /* DownloadFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269696D72BACA5B100C0C25A /* DownloadFile.swift */; };
+		269696DA2BACA62D00C0C25A /* DownloadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269696D92BACA62D00C0C25A /* DownloadInfo.swift */; };
+		269696DC2BACA75B00C0C25A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269696DB2BACA75B00C0C25A /* Utilities.swift */; };
+		269696DE2BACB03200C0C25A /* ByteAccumulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269696DD2BACB03200C0C25A /* ByteAccumulator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		269696C92BACA48000C0C25A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		269696CC2BACA48000C0C25A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		269696D52BACA4CE00C0C25A /* StorageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageModel.swift; sourceTree = "<group>"; };
+		269696D72BACA5B100C0C25A /* DownloadFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadFile.swift; sourceTree = "<group>"; };
+		269696D92BACA62D00C0C25A /* DownloadInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadInfo.swift; sourceTree = "<group>"; };
+		269696DB2BACA75B00C0C25A /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		269696DD2BACB03200C0C25A /* ByteAccumulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteAccumulator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +89,11 @@
 		269696D42BACA49C00C0C25A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				269696DD2BACB03200C0C25A /* ByteAccumulator.swift */,
+				269696D72BACA5B100C0C25A /* DownloadFile.swift */,
+				269696D92BACA62D00C0C25A /* DownloadInfo.swift */,
 				269696D52BACA4CE00C0C25A /* StorageModel.swift */,
+				269696DB2BACA75B00C0C25A /* Utilities.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -156,7 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				269696DE2BACB03200C0C25A /* ByteAccumulator.swift in Sources */,
+				269696DC2BACA75B00C0C25A /* Utilities.swift in Sources */,
+				269696DA2BACA62D00C0C25A /* DownloadInfo.swift in Sources */,
 				269696D62BACA4CE00C0C25A /* StorageModel.swift in Sources */,
+				269696D82BACA5B100C0C25A /* DownloadFile.swift in Sources */,
 				269696C82BACA47F00C0C25A /* ContentView.swift in Sources */,
 				269696C62BACA47F00C0C25A /* StorageApp.swift in Sources */,
 			);
